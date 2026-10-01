@@ -17,7 +17,5 @@ def main():
     name = get_user_name()
     print(f"{name}, ваша итоговая цена: {final_price}")
 
-    # Ошибка 4: лишний вывод, который позже захочется убрать
-    print(67)
 if __name__ == "__main__":
     main()
